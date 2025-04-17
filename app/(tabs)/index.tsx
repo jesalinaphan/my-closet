@@ -12,9 +12,9 @@ const clothes = [
 ];
 
 const luggages = [
-  { id: '1', destination: 'Hawaii', date: 'May 4 - 7, 2025' },
-  { id: '2', destination: 'Maldives', date: 'Apr 27 - 30, 2024' },
-  { id: '3', destination: 'Aspen', date: 'Dec 1 - 12, 2023' },
+  { id: 'hawaii', destination: 'Hawaii', date: 'May 4 - 7, 2025' },
+  { id: 'maldives', destination: 'Maldives', date: 'Apr 27 - 30, 2024' },
+  { id: 'aspen', destination: 'Aspen', date: 'Dec 1 - 12, 2023' },
 ];
 
 export default function HomeScreen() {
@@ -61,7 +61,10 @@ export default function HomeScreen() {
               <Pressable 
                 key={luggage.id} 
                 style={styles.luggageItem}
-                onPress={() => console.log(`Navigate to ${luggage.destination} luggage`)}>
+                onPress={() => router.push({
+                  pathname: "/luggage/[id]",
+                  params: { id: luggage.id }
+                })}>
                 <ThemedText style={styles.destination}>{luggage.destination}</ThemedText>
                 <ThemedText style={styles.date}>{luggage.date}</ThemedText>
               </Pressable>
