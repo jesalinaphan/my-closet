@@ -1,4 +1,10 @@
-# Welcome to your Expo app 👋
+# Welcome to My Closet 👗
+
+Have you ever found a cute shirt you forgot you had stuffed in the back of your drawer? Or frantically searched through your closet looking for something to wear to match the theme of a party? 
+
+I constantly feel like I have pieces of clothes that I forget about or never wear because the are burried under the items in my weekly rotation. They are super cute items, but I just forget about them. In an attempt to get more uses out of my clothes and not forget about items I bought just a year ago, I created this app to order my closet. 
+
+Imagine you needed to go to a white party, but you can't remember what white pieces you have. The application allows for filtering by different colors in the case of needing to match certain theme. Imagine you are going on vacation and want to decide what to pack, but don't want to spend so much time rummaging through your closet. The application allows you to create luggages right on your phone and organize the pieces you want before ever even having to look through your closet. Use My Closet and never lose a piece of clothing again!
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -32,19 +38,3 @@ When you're ready, run:
 ```bash
 npm run reset-project
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
